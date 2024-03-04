@@ -5,7 +5,7 @@ public class ReverseEachWordInAString {
 	public static void main(String[] args) {
 		
 		//Approach_1
-		/*String str="Welcome to java"; // Original string
+		String str="Welcome to java"; // Original string
 		String[] words=str.split(" "); //Splitting string into words
 		
 		String revstr="";
@@ -19,13 +19,13 @@ public class ReverseEachWordInAString {
 			revstr=revstr+revword+" "; //emoclew ot avaj
 		}
 		
-		System.out.println(revstr);*/
+		System.out.println(revstr);
 		
 		//Approach_2
 		
-		String str="Welcome to java";
+		/*String str="Welcome to java";
 		String[] words=str.split("\\s");
-		
+
 		String revword="";
 		for(String w:words) //welcome /to / java
 		{
@@ -33,7 +33,7 @@ public class ReverseEachWordInAString {
 			sb.reverse(); //emoclew ot avaj
 			revword=revword+sb.toString()+" ";
 		}
-		System.out.println(revword);
+		System.out.println(revword);*/
 
 	}
 
